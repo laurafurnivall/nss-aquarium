@@ -1,0 +1,81 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pageHeader {
+    font-size: 50px;
+    text-align: left;
+    text-shadow: 5px 5px 5px darkblue;
+    line-height: 0px;
+    text-decoration: underline;
+}
+
+.contentAndAside {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainContent {
+    margin: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header {
+    margin: 5px 1px 5px 1px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px darkblue;
+    background: linear-gradient(rgba(0, 0, 255, 0.281),rgba(0, 255, 255, 0.123));
+}
+ h2 {
+    line-height: 5px;
+    text-align: center;
+ }
+
+ h3 {
+    text-decoration: underline;
+ }
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.fishQuotesLocations {
+    text-align: center;
+    width: 225px;
+    margin: 5px;
+    border-radius: 10%;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.fishPic {
+    max-width: 75%;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.fishContent {
+    margin: 5px;
+    text-align: start;
+}
+
+.aside {
+    display: flex;
+    flex-direction: end;
+    align-content: top;
+    width: 600px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px darkblue;
+    background: linear-gradient(rgba(0, 0, 255, 0.281),rgba(0, 255, 255, 0.123));
+}
