@@ -1,9 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .pageHeader {
@@ -12,18 +9,24 @@ body {
     text-shadow: 5px 5px 5px darkblue;
     line-height: 0px;
     text-decoration: underline;
+    text-align: center;
 }
 
+/* Places the aside at right side of the screen and 
+the fish, quotes, and locations on the left */
 .contentAndAside {
     display: flex;
-    justify-content: space-around;
 }
 
-.mainContent {
-    margin: 1px;
+.headerFishList {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: 5px 1px 5px 1px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px darkblue;
+    background: linear-gradient(rgba(0, 0, 255, 0.281),rgba(0, 255, 255, 0.123));
 }
 
 .header {
@@ -36,12 +39,16 @@ body {
  h2 {
     line-height: 5px;
     text-align: center;
+    margin: 2px;
+    padding-top: 10PX;
  }
 
  h3 {
     text-decoration: underline;
+    text-align: center;
  }
-.lists {
+
+ .lists {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -51,7 +58,7 @@ body {
 .fishQuotesLocations {
     text-align: center;
     width: 225px;
-    margin: 5px;
+    margin: 10px 3px;
     border-radius: 10%;
     border: 1px solid black;
     background-color: aliceblue;
@@ -64,15 +71,18 @@ body {
 }
 
 .fishContent {
-    margin: 5px;
+    margin: 10px 3px;
     text-align: start;
+    border: 1px solid black;
+    background-color: aliceblue;
+    width: 225px;
+    border-radius: 10%;
+    padding: 5px
 }
 
+/* Tips and Tricks */
 .aside {
-    display: flex;
-    flex-direction: end;
-    align-content: top;
-    width: 600px;
+    width: 250px;
     margin: 10px;
     padding: 10px 20px;
     border-radius: 10px;
